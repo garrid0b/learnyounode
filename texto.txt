@@ -1,4 +1,30 @@
-texto
-texto uno
-texto dos
-texto tres
+   "registered": "2016-09-04T12:16:40 +05:00",
+    "latitude": -81.768561,
+    "longitude": -108.608633,
+    "tags": [
+      "incididunt",
+      "ullamco",
+      "irure",
+      "ex",
+      "labore",
+      "et",
+      "minim"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Joy Drake"
+      },
+      {
+        "id": 1,
+        "name": "Murray Shaffer"
+      },
+      {
+        "id": 2,
+        "name": "Lorie Stanton"
+      }
+    ],
+    "greeting": "Hello, Priscilla Bates! You have 2 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]

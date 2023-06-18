@@ -4,9 +4,14 @@ const port = Number(process.argv[2])
 const patch = process.argv[3]
 
 const server =  http.createServer( (req,res) =>{
-  var texto =  fs.readFileSync(patch)
-  res.writeHead(200, { 'content-type': 'text/plain' })  
-  res.end(texto)    
+  fs.readFile(patch,'utf8',(err,data)=>{
+    if(err){
+      return console.error(err);
+    }
+    res.writeHead(200, { 'content-type': 'text/plain' })  
+    res.end(data)   
+  })
+
 })
 
 server.listen(port)
